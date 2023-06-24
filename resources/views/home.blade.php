@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'ホーム')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>{{ date('Y-m-d H:i:s') }}</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    <p>サイドバーメニューより操作を選択してください。</p>
 @stop
 
 @section('css')
@@ -17,4 +17,3 @@
 @section('js')
     <script> console.log('Hi!'); </script>
 @stop
-

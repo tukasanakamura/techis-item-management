@@ -230,6 +230,12 @@ return [
             'url'  => 'items',
             'icon' => 'fas fa-gamepad',
         ],
+        [
+            'text' => 'ユーザー一覧',
+            'url'  => 'admin',
+            'icon' => 'fas fa-fw fa-user',
+            'can'  => 'manage-users', // 管理者のみがこのメニューを見ることができるようにします。
+        ],
 
         // AdminLTEデフォルト
         /*
