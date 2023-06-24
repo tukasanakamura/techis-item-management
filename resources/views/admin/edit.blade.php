@@ -37,12 +37,12 @@
                         </div>
 
                         <button type="submit" class="btn btn-primary">更新</button>
-                        <button type="submit" class="btn btn-danger">削除</button>
                     </form>
 
                     <form method="POST" action="{{ route('admin.destroy', $user->id) }}" style="margin-top: 1em;">
                         @csrf
                         @method('DELETE')
+                        <button type="submit" class="btn btn-danger">削除</button>
                     </form>
                 </div>
             </div>
