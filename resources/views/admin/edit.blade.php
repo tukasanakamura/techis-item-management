@@ -29,7 +29,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="role">ロール</label>
+                            <label for="role">役割</label>
                             <select class="form-control" id="role" name="role">
                                 <option value="0" {{ $user->role == 0 ? 'selected' : '' }}>ユーザー</option>
                                 <option value="1" {{ $user->role == 1 ? 'selected' : '' }}>管理者</option>
@@ -50,3 +50,4 @@
     </div>
 </div>
 @endsection
+
